@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Conversion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Currency Conversion</h2>
+        <input type="number" id="amount" placeholder="Amount in INR" required>
+        <select id="currency">
+            <option value="USD">USD</option>
+            <option value="AED">AED</option>
+            <option value="SGD">SGD</option>
+            <option value="MYR">MYR</option>
+            <option value="THB">THB</option>
+        </select>
+        <button onclick="convertCurrency()">Convert</button>
+        <p id="result"></p>
+        <p><a href="index.html">Logout</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
